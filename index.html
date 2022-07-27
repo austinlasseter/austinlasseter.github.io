@@ -1,310 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Austin Lasseter</title>
+    <meta name="description" content="Professional Portfolio" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link rel="stylesheet" href="css/style.css" />
 
-    <title>Austin Lasseter, Ph.D.</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Austin Lasseter PhD</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#Certifications">Certifications</a>
-          </li>
-        </ul>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/cartoon_headshot.png"
+              alt="Head Shot"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Austin Lasseter, PhD</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#certifications" class="header__link"> Certifications </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
       </div>
-    </nav>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
 
-    <div class="container-fluid p-0">
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Austin
-            <span class="text-primary">Lasseter</span>
-          </h1>
-          <div class="subheading mb-5"> Washington, DC · (703) 786-4028 ·
-            <a href="mailto:name@email.com">austinlasseter@gmail.com</a>
-          </div>
-          <p class="mb-5">I build machine-learning solutions using Python scientific libraries and AWS cloud computing services, with 10 years experience serving the federal government in data modeling and analysis. I am also an avid teacher of data science.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="https://docs.google.com/document/d/1TkTPGdNojtwKAktfBbG5JdzrWVC-45EPNNY80sRr-jY/edit?usp=sharing">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa  fa-stack-1x fa-inverse">cv</i>
-                </span>
-              </a>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
             </li>
-            <li class="list-inline-item">
-              <a href="https://www.kaggle.com/austinlasseter">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-baseball fa-stack-1x fa-inverse">k</i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/austinlasseter/">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://github.com/austinlasseter">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://medium.com/@austinlasseter">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-stack-1x fa-inverse">m</i>
-                </span>
-              </a>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#certifications"> Certifications </a>
             </li>
           </ul>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Data Scientist</h3>
-              <div class="subheading mb-3">US Army</div>
-               <ul>
-                <li>Oversee team of developers building serverless software tool in AWS GovCloud (AWS Lambda, API gateway)</li>
-                <li>Modeling and visualization of financial data using AWS SageMaker to inform resource allocation</li>
-                <li>Establishing first instance of AWS Academy Cloud Foundations course at US Army</li>
-               </ul>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">November 2019-present</span>
-            </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img
+              src="./assets/png/pencil_headshot.png"
+              alt="Pencil Headshot"
+              class="projects__row-img"
+              loading="lazy"
+            />
           </div>
-
-
-              <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                  <h3 class="mb-0">Data Science Instructor</h3>
-                  <div class="subheading mb-3">General Assembly (2018-2019) / Lambda School (2019-present)</div>
-                   <ul>
-                    <li>Machine Learning (scikit learn, nltk, spacy, keras)</li>
-                    <li>Data Analytics & Linear Algebra (pandas, numpy, matplotlib, plotly)</li>
-                    <li>Deploy Python applications (flask, plotly dash, docker, AWS elasticbeanstalk, Heroku)</li>
-                    <li>AWS Academy Cloud Foundations (preparing students for AWS Cloud Practitioner certification)</li>
-
-                       </ul>
-                </div>
-                <div class="resume-date text-md-right">
-                  <span class="text-primary">November 2019-present</span>
-                </div>
-              </div>
-
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Portfolio Projects</h3>
-              <div class="subheading mb-3">Personal projects not related to work</div>
-               <ul>
-                <li>Deployed random forest classification model for NLP: https://tmdb-rf-genres.herokuapp.com/</li>
-                <li>K-Nearest Neighbors for classification: https://knn-iris-classifier.herokuapp.com/</li>
-                <li>Visualization of Virginia Census Data: https://virginia-census-data.herokuapp.com/</li>
-                <li>Plotly Dash tutorial: https://github.com/austinlasseter/plotly_dash_tutorial</li>
-                <li>Video: How to deploy a Plotly Dash app: https://youtu.be/tcF4XPAq7rE</li>
-               </ul>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Portfolio</span>
-            </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">AI/ML Software Engineer</h3>
+            <p class="projects__row-content-desc2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              facilis tempora, explicabo quae quod deserunt eius sapiente
+              praesentium.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1wiJiqEPZX_g6Bb-I0uJPK-B91xmswLAl/view?usp=sharing"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >My Resume</a
+            >
+            <br>
+            <br>
+            <a
+              href="./index.html#about"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >About me</a
+            >
           </div>
 
 
 
         </div>
+        
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/austinlasseter/" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/austinlasseter" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://medium.com/@austinlasseter" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/medium-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://www.credly.com/users/austin-lasseter.2fe5f7c3/badges" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/credly-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://generalassemb.ly/instructors/austin-lasseter/19254"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/ga-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
 
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Data Science Certificate</h3>
-              <div class="subheading mb-3">General Assembly, Washington DC</div>
-              <div>10-week part-time course, 12-week full-time immersive course</div>
-
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>John Doe</strong>
+                and I'm a <strong> Frontend Web Developer </strong> located in
+                Los Angeles. I've done
+                <strong> remote </strong>
+                projects for agencies, consulted for startups, and collaborated
+                with talented people to create
+                <strong>digital products </strong>
+                for both business and consumer use.
+              </p>
+              <p class="about__content-details-para">
+                I'm a bit of a digital product junky. Over the years, I've used
+                hundreds of web and mobile apps in different industries and
+                verticals. 
+              </p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 2017-April 2018</span>
+            <a href="https://drive.google.com/file/d/1wiJiqEPZX_g6Bb-I0uJPK-B91xmswLAl/view?usp=sharing" class="btn btn--med btn--theme dynamicBgClr"
+              >My Resume</a
+            >
+            <br>
+            <br>
+            <a
+              href="./index.html#projects"
+              class="btn btn--med btn--theme dynamicBgClr"
+              target="_blank"
+              >Projects</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Toolkit</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Shopify</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Google ADS</div>
+              <div class="skills__skill">Facebook Ads</div>
+              <div class="skills__skill">Android</div>
+              <div class="skills__skill">IOS</div>
             </div>
           </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Ph.D. Education Policy</h3>
-              <div class="subheading mb-3">University of Maryland, College Park</div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
 
-
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-reddit.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2013</span>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Webscraping and Sentiment Analysis</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="https://reddit-scraper-sentiments.herokuapp.com"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View the App!</a
+              >
+              <br>
+              <br>
+              <a
+                href="https://github.com/plotly-dash-apps/602-webscraper-sentiment-analysis"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
             </div>
           </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">M.A. Humanities</h3>
-              <div class="subheading mb-3">University of Dallas, Irving TX</div>
-
-              </div>
-                <div class="resume-date text-md-right">
-                  <span class="text-primary">August 2004</span>
-                </div>
-              </div>
-              <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                  <h3 class="mb-0">B.A. Philosophy</h3>
-                  <div class="subheading mb-3">Ateneo Regina Apostolorum, Rome, Italy</div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/digit-classifier.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 1996</span>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">XGBoost Digit Classifier</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="https://xgb-digit-classifier.herokuapp.com/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View the App!</a
+              >
+              <br>
+              <br>
+              <a
+                href="https://github.com/plotly-dash-apps/506-digit-classifier-xgboost"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/dogs-cats.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">CNN Dogs vs Cats Classifier</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="http://eb-cat-dog-classifier-dev.us-east-1.elasticbeanstalk.com/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View the App!</a
+              >
+              <br>
+              <br>
+              <a
+                href="https://github.com/austinlasseter/tensorflow-cats-dogs-classifier"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
+
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/nlp-classification-aws.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Deploy an NLP model with SageMaker and Lambda</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="https://austinlasseter.medium.com/deploy-an-nlp-classification-model-with-amazon-sagemaker-and-lambda-cd5ea6339781/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View the Article!</a
+              >
+              <br>
+              <br>
+              <a
+                href="https://github.com/austinlasseter/blazing-text-dbpedia"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
+
             </div>
           </div>
 
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-
-            <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-3">Data Science Toolkit</div>
-          <ul>
-            <li>scikit learn</li>
-            <li>tensorflow</li>
-            <li>keras</li>
-            <li>xgboost</li>
-            <li>pandas</li>
-            <li>plotly dash</li>
-            <li>AWS SageMaker</li>
-          </ul>
+      </div>
+    </section>
+    <section id="certifications" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Certifications</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+        <ul class="heading-sec__sub heading-sec__sub--lt">
+          <li>ScienceLogic Certified Expert (Sept 2021)</li>
+          <li>AWS Data Analytics - Specialty Certification (July 2021)</li>
+          <li>AWS SysOps Administrator Associate SOA-C02 Certification (Feb 2021)</li>
+          <li>Udacity AWS Machine Learning Engineer Nanodegree (Nov 2020)</li>
+          <li>AWS Certified Machine Learning - Specialty Certification (June 2020)</li>
+          <li>Comptia Security+ Cybersecurity Certification (May 2020)</li>
+          <li>AWS Academy InstructorAccredited Educator (Apr 2020)</li>
+          <li>AWS Certified Developer - Associate Certification (July 2019)</li>
+          <li>AWS Certified Solutions Architect - Associate Certification (Apr 2019)</li>
+          <li>AWS Cloud Practitioner Certification (August 2018)</li>
+          <li>General Assembly Data Science Immersive Course (April 2018)</li>
+          <li>ScrumMaster Certification, Scrum Alliance (Jan 2018)</li>
+          <li>IBM Certified Specialist in SPSS Statistics (Aug 2009)</li>
+          <li>Certified Rock-Climbing Instructor, Earth Treks Fitness (Jun 2008)</li>
+        </ul> 
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/austinlasseter/">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/austinlasseter">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/twitter-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon"
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img
+                  class="main-footer__icon main-footer__icon--mr-none"
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Austin Lasseter</h4>
+            <p class="main-footer__short-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
+              tempora explicabo quae quod deserunt
+            </p>
+          </div>
         </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a data scientist, I enjoy most of my time being outdoors. I cycle to work every day (even in the winter months). I'm a certified rock climbing instructor. I've completed 10 marathons, including the Marine Corps Marathon (three times). I'm a volunteer coach for my kids' soccer and baseball teams. When I'm not modeling big data, you'll find me kayaking on the Potomac River, rock-climbing at Great Falls National Park, or hiking the Appalachian Trail.</p>
+
+        <div class="main-footer__lower">
+          &copy; Copyright 2022. Made by
+          <a rel="noreferrer" target="_blank" href="https://austinlasseter.com"
+            >Austin Lasseter</a
+          >
         </div>
-      </section>
+      </div>
+    </footer>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Certifications">
-        <div class="my-auto">
-          <h2 class="mb-5">Certifications &amp; Achievements</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-              AWS Academy Certified Instructor</li>
-              <li>
-                <i class="fa-li fa fa-certificate text-warning"></i>
-                AWS Developer</li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-              AWS Solutions Architect</li>
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-              Certificate in Data Science, General Assembly</li>
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-              ScrumMaster Certification</li>
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-
-              IBM Certified Specialist in SPSS Statistics</li>
-            <li>
-              <i class="fa-li fa fa-certificate text-warning"></i>
-
-              Certificate of Completion: Jose Portilla's 'Python for Data Science and Machine Learning Bootcamp' on Udemy</li>
-              <li>
-                <i class="fa-li fa fa-certificate text-warning"></i>
-
-                Certificate of Completion: Jose Portilla's 'Complete Python Bootcamp'  on Udemy</li>
-            <li>
-              <i class="fa-li fa fa-circle text-warning"></i>
-              Rock Climbing Youth Instructor Certification, State of Maryland</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-circle text-warning"></i>
-
-              Conversational fluency in Spanish; reading proficiency in French, Italian, & Latin</li>
-            <li>
-          </ul>
-        </div>
-      </section>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
+    <script src="./index.js"></script>
   </body>
-
 </html>
