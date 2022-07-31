@@ -1,0 +1,16 @@
+I'm a software engineer and tech instructor located in Northern Virginia. Between 2018 and 2022, I've taught the full range of data courses with General Assembly
+including data analytics (three times), Python programming (five times), and Data Science (over a dozen times).
+A life-long learner, I love to share with my fellow students the latest advancements in automation of AI/ML in the AWS cloud.
+I'm fascinated by the intersection of Software Development and Machine Learning!
+
+My specialty is building and deploying machine learning
+models with my students.
+
+I love learning new ways to create digital products
+with Amazon Web Services, and to share with others what I've learned and built.
+In addition to my classes with General Assembly, I also work full-time as a software developer at a startup focused on AIOps.
+
+I hold a PhD in Policy from the University of Maryland with a concentration in Survey Statistics, and 9 relevant certifications including the Amazon Machine Learning certification, the “Machine Learning Engineer” nanodegree from Udacity, and a certificate in Data Science from General Assembly.
+
+When I'm not throwing it down with Python, you'll find me running marathons,
+kayaking on the Shenandoah river, or rock-climbing in Great Falls!
