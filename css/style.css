@@ -47,7 +47,17 @@ a {
   color: inherit; }
 
 li {
-  list-style: none; }
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: left;
+  color: white;
+  max-width: 60rem;
+  line-height: 1;
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .projects__row-content-desc2 {
+      font-size: 1.7rem; } }
+}
 
 input:focus,
 button:focus,
@@ -321,7 +331,7 @@ textarea {
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc {
           font-size: 1.7rem; } }
-    
+
     .projects__row-content-desc2 {
       font-size: 1.8rem;
       color: white;
@@ -330,7 +340,7 @@ textarea {
       margin-bottom: 3rem; }
       @media only screen and (max-width: 37.5em) {
         .projects__row-content-desc2 {
-          font-size: 1.7rem; } } 
+          font-size: 1.7rem; } }
 
 
 .contact {

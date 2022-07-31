@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 1</title>
-    <meta name="description" content="Case study page of Project" />
-
+    <title>Austin Lasseter</title>
+    <meta name="description" content="Austin Lasseter Professional Portfolio" />
+    <link rel="icon" type="image/x-icon" href="/assets/png/favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,12 +22,12 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/john-doe.png"
+              src="./assets/png/cartoon_headshot.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
           </div>
-          <span class="header__logo-sub">John Doe</span>
+          <span class="header__logo-sub">Austin Lasseter, PhD</span>
         </div>
         <div class="header__main">
           <ul class="header__links">
@@ -43,7 +43,7 @@
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
+              <a href="./index.html#contact" class="header__link"> Certifications </a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -82,87 +82,387 @@
         </div>
       </div>
     </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 1</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Additional Projects</span>
+        <span class="heading-sec__sub">
+          Secondary examples of applications I've built and deployed. All of these examples
+          are lecture examples for the courses I teach at General Assembly (Data Science and Intro to Python).
+        </span>
+      </h2>
+      <div class="projects__content">
+
+
+
+
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/horror-movie.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">NLP Classification of Horror Movies</h3>
+          <p class="projects__row-content-desc">
+            Random Forest classifier and TF-IDF vectorizer trained on TMDB dataset. Testing data included 779 cases.
           </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
-        </div>
-      </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
-              </p>
-              <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
-              </p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Shopify</div>
-                <div class="skills__skill">Wordpress</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
-              </div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Live</h3>
-              <a
-                href="#"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Live Link</a
-              >
-              <a
-                href="#"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-            </div>
-          </div>
+          <a
+            href="https://tmdb-rf-genres.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/601-nlp-horror-movies"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
         </div>
       </div>
-    </section>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/classify-mortgages.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Random Forest Classification of Mortgage Loans</h3>
+          <p class="projects__row-content-desc">
+            Classification of mortgage loans using a Scikit-learn Random Forest model, with standardization
+            of dataset, confusion matrix and other evaluation metrics.
+          </p>
+          <a
+            href="https://mortgage-loans-predictor-app.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/504-mortgage-loans-predictor"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/cali-housing.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Linear Regression with California Housing Data</h3>
+          <p class="projects__row-content-desc">
+            A classroom demonstration of linear regression using Scikit-learn, with focus on evaluation.
+          </p>
+          <a
+            href="https://cali-housing-regression.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/502-california-housing-regression"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/titanic-survival.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Comparing Classification Models</h3>
+          <p class="projects__row-content-desc">
+            Comparison of multiple classification models (Logistic, Naive Bayes, Random Forest, KNN)
+            based on confusion matrix and related metrics.
+          </p>
+          <a
+            href="https://titanic-survival-classifier.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/505-titanic-survival-classifier"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/knn-iris.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">K-Nearest Neighbors Visualization</h3>
+          <p class="projects__row-content-desc">
+            Building a simple K-Nearest Neighbors classifier using the Iris dataset
+            and scikit-learn, and then visualizing the results with Plotly Dash.
+            Watch me explain how to build this app in a <a href="https://youtu.be/tcF4XPAq7rE">youtube video</a>
+          </p>
+          <a
+            href="https://knn-iris-classifier.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/507-knn-iris"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/ames-iowa.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Linear Regression with Iowa Housing Data</h3>
+          <p class="projects__row-content-desc">
+            A classroom demonstration of linear regression using Scikit-learn.
+          </p>
+          <a
+            href="https://ames-housing-linear.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/501-linear-reg-ames-housing"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/project-reddit.jpeg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Webscraping and Sentiment Analysis</h3>
+          <p class="projects__row-content-desc">
+            Combines beautifulsoup and vader to scrape the top trending posts on reddit and
+            analyze the text sentiment.
+          </p>
+          <a
+            href="https://reddit-scraper-sentiments.herokuapp.com"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/602-webscraper-sentiment-analysis"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/banana-knobs.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Building an Interactive App with Plotly Dash</h3>
+          <p class="projects__row-content-desc">
+            An exercise in creating interactive callbacks using the Plotly Dash library for visualization.
+          </p>
+          <a
+            href="https://dash-daq-state.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/406-banana-knobs"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/weather-api.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Simple Weather API app</h3>
+          <p class="projects__row-content-desc">
+            An exercise in making API calls using the 'requests' Python library and Plotly Dash.
+            This exercise accompanied a lesson on building and accessing APIs.
+          </p>
+          <a
+            href="https://weather-api-plotly-dash.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/402-weather-api"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/global-hiv.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Data Visualization with Global Map</h3>
+          <p class="projects__row-content-desc">
+            An exercise in exploratory data analysis (EDA) using the Pandas library Pandas
+            a combination of Plotly Dash and Mapbox for interactive visualization of the map.
+          </p>
+          <a
+            href="https://global-hiv-stats-2018.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/307-global-hiv-stats"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__row-img-cont">
+          <img
+            src="./assets/jpeg/old-mcdonald.jpg"
+            alt="Software Screenshot"
+            class="projects__row-img"
+            loading="lazy"
+          />
+        </div>
+        <div class="projects__row-content">
+          <h3 class="projects__row-content-title">Exploratory Analysis with Pandas</h3>
+          <p class="projects__row-content-desc">
+            An exercise in exploratory data analysis (EDA) using the Pandas library Pandas
+            a combination of Plotly Dash and Mapbox for interactive visualization of the map.
+          </p>
+          <a
+            href="https://agriculture-exports-map.herokuapp.com/"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >View the App!</a
+          >
+          <br>
+          <br>
+          <a
+            href="https://github.com/plotly-dash-apps/306-agriculture-exports-dropdown"
+            class="btn btn--med btn--theme dynamicBgClr"
+            target="_blank"
+            >Code on Github</a
+          >
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
     <footer class="main-footer">
       <div class="main-container">
         <div class="main-footer__upper">
@@ -209,7 +509,7 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">Austin Lasseter</h4>
             <p class="main-footer__short-desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
               tempora explicabo quae quod deserunt

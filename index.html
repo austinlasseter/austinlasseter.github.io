@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Austin Lasseter</title>
-    <meta name="description" content="Professional Portfolio" />
-    <link rel="icon" type="image/x-icon" href="/assets/png/cartoon_headshot.png">
+    <meta name="description" content="Austin Lasseter Professional Portfolio" />
+    <link rel="icon" type="image/x-icon" href="/assets/png/favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -107,10 +107,10 @@
             <br>
             <br>
             <a
-              href="./index.html#about"
+              href="./index.html#projects"
               class="btn btn--med btn--theme dynamicBgClr"
               target="_blank"
-              >About me</a
+              >My Projects</a
             >
           </div>
         </div>
@@ -233,6 +233,7 @@
               <div class="skills__skill">AWS CloudFormation</div>
               <div class="skills__skill">AWS Lambda</div>
               <div class="skills__skill">Apache Gremlin</div>
+              <div class="skills__skill">SQL</div>
             </div>
           </div>
         </div>
@@ -249,37 +250,7 @@
         </h2>
 
         <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-reddit.jpeg"
-                alt="Software Screenshot"
-                class="projects__row-img"
-                loading="lazy"
-              />
-            </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">Webscraping and Sentiment Analysis</h3>
-              <p class="projects__row-content-desc">
-                Combines beautifulsoup and vader to scrape the top trending posts on reddit and
-                analyze the text sentiment.
-              </p>
-              <a
-                href="https://reddit-scraper-sentiments.herokuapp.com"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >View the App!</a
-              >
-              <br>
-              <br>
-              <a
-                href="https://github.com/plotly-dash-apps/602-webscraper-sentiment-analysis"
-                class="btn btn--med btn--theme dynamicBgClr"
-                target="_blank"
-                >Code on Github</a
-              >
-            </div>
-          </div>
+
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -359,8 +330,8 @@
               <h3 class="projects__row-content-title">Topic Modeling of Medical Transcripts</h3>
               <p class="projects__row-content-desc">
                 I applied Latent Dirichlet Allocation (LDA) to cluster unlabeled medical transcripts
-                into similar topic clusters, identified by keywords. Based on classification accuracy
-                and coherence score, I determined that the optimal model had 9 clusters.
+                into similar topic clusters. Classification accuracy
+                and coherence score evaluate the optimal model.
               </p>
               <a
                 href="http://austinlasseter.com/LDA-medical-transcripts/"
@@ -449,7 +420,34 @@
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="./assets/jpeg/nlp-classification-aws.jpeg"
+                src="./assets/jpeg/time-series.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Deep Learning for Survival Analysis</h3>
+              <p class="projects__row-content-desc">
+                This project predicts time til server failure, using a dataset of 125k web servers from 2015.
+                Final analysis employs a neural network model (DeepSurv Neural Cox Analysis) with
+                F1 Score of 96%, ROC-AUC score of 86%.
+
+              </p>
+              <a
+                href="https://github.com/austinlasseter/predict_device_failure/blob/master/analysis/survival_analysis.ipynb"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
+            </div>
+          </div>
+
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/classify-mortgages.jpg"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -475,6 +473,7 @@
         </div>
       </div>
     </section>
+
     <section id="certifications" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
@@ -491,23 +490,49 @@
           <span class="heading-sec__sub heading-sec__sub--lt">
             I've picked up a few certifications along the way--these are a tangible measure of the learning and exploration I've done over the years.
           </span>
-        </h2>
-        <ul class="heading-sec__sub heading-sec__sub--lt">
-          <li>ScienceLogic Certified Expert (Sept 2021)</li>
-          <li>AWS Data Analytics - Specialty Certification (July 2021)</li>
-          <li>AWS SysOps Administrator Associate SOA-C02 Certification (Feb 2021)</li>
-          <li>Udacity AWS Machine Learning Engineer Nanodegree (Nov 2020)</li>
-          <li>AWS Certified Machine Learning - Specialty Certification (June 2020)</li>
-          <li>Comptia Security+ Cybersecurity Certification (May 2020)</li>
-          <li>AWS Academy InstructorAccredited Educator (Apr 2020)</li>
-          <li>AWS Certified Developer - Associate Certification (July 2019)</li>
-          <li>AWS Certified Solutions Architect - Associate Certification (Apr 2019)</li>
-          <li>AWS Cloud Practitioner Certification (August 2018)</li>
-          <li>General Assembly Data Science Immersive Course (April 2018)</li>
-          <li>ScrumMaster Certification, Scrum Alliance (Jan 2018)</li>
-          <li>IBM Certified Specialist in SPSS Statistics (Aug 2009)</li>
-          <li>Certified Rock-Climbing Instructor, Earth Treks Fitness (Jun 2008)</li>
-        </ul>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/aws-certs.png"
+                alt="AWS Certfications"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <p class="projects__row-content-desc2">
+                <li>AWS Data Analytics</li>
+                <li>AWS SysOps Administrator Associate</li>
+                <li>AWS Certified Machine Learning</li>
+                <li>AWS Certified Developer</li>
+                <li>AWS Certified Solutions Architect</li>
+                <li>AWS Cloud Practitioner Certification</li>
+              </p>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/other-certs.png"
+                alt="AWS Certfications"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <p class="projects__row-content-desc2">
+                <li>ScienceLogic Certified Expert</li>
+                <li>Udacity AWS Machine Learning Engineer</li>
+                <li>Comptia Security+ Cybersecurity</li>
+                <li>AWS Academy Accredited Educator</li>
+                <li>General Assembly Data Science Immersive</li>
+                <li>ScrumMaster Certification</li>
+                <li>IBM Certified Statistics</li>
+              </p>
+            </div>
+          </div>
       </div>
     </section>
     <footer class="main-footer">
