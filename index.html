@@ -172,8 +172,7 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            A life-long learner who loves to share with fellow students the latest trends in Python and Machine Learning.
           </span>
         </h2>
         <div class="about__content">
@@ -346,6 +345,41 @@
             </div>
           </div>
 
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/topic-modeling.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Topic Modeling of Medical Transcripts</h3>
+              <p class="projects__row-content-desc">
+                I applied Latent Dirichlet Allocation (LDA) to cluster unlabeled medical transcripts
+                into similar topic clusters, identified by keywords. Based on classification accuracy
+                and coherence score, I determined that the optimal model had 9 clusters.
+              </p>
+              <a
+                href="http://austinlasseter.com/LDA-medical-transcripts/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View the App!</a
+              >
+              <br>
+              <br>
+              <a
+                href="https://github.com/austinlasseter/sagemaker_lda_medical"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code on Github</a
+              >
+            </div>
+          </div>
+
+
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -409,9 +443,34 @@
                 target="_blank"
                 >Code on Github</a
               >
-
             </div>
           </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/nlp-classification-aws.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Additional Projects</h3>
+              <p class="projects__row-content-desc">
+                A blog post showing how to deploy a Sagemaker endpoint for a trained NLP model
+                and then connect it to an API Gateway endpoint with a Lambda function
+                to predict classification of user inputs.
+              </p>
+              <a
+                href="./other-projects.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >View my other projects</a
+              >
+            </div>
+          </div>
+
 
         </div>
       </div>
