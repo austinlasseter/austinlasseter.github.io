@@ -43,6 +43,11 @@
               </a>
             </li>
             <li class="header__link-wrapper">
+              <a href="./index.html#courses" class="header__link">
+                Courses
+              </a>
+            </li>
+            <li class="header__link-wrapper">
               <a href="./index.html#certifications" class="header__link"> Certifications </a>
             </li>
           </ul>
@@ -233,6 +238,7 @@
         </div>
       </div>
     </section>
+
     <section id="projects" class="projects sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
@@ -243,7 +249,6 @@
           </span>
         </h2>
         <div class="projects__content">
-
 
           <div class="projects__row">
             <div class="projects__row-img-cont">
@@ -470,6 +475,75 @@
             </div>
           </div>
 
+
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Courses</span>
+          <span class="heading-sec__sub">
+            Between 2018 and 2022, I've taught over 500 students to build and deploy
+            machine learning apps on the web. Course content is organized into two github
+            organizations shown below. Over four years,  I've rewritten much of the course material.
+            Sometimes I wrote original content; other times I repurposed examples from the web
+            with modifications or reorganization of my own .
+          </span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/python-apps.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Deploying Python Applications on Heroku</h3>
+              <p class="projects__row-content-desc">
+                This course introduces students to Flask for app-building, Plotly for visualization,
+                and Plotly Dash for building simple ML applications. We use Heroku and Docker to deploy
+                the apps to the web.
+              </p>
+              <a
+                href="https://github.com/plotly-dash-apps"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Course Materials</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/deploy-deep-learning-models.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Deploying Deep Learning Apps on AWS</h3>
+              <p class="projects__row-content-desc">
+                The course introduces students to tensorflow and keras for trainining and optimizing
+                deep learning models. We use a combination of AWS services (Sagemaker endpoints, lambda
+                functions, API Gateway, S3 static website, ElasticBeanstalk, Chalice) to deploy the
+                trained model to the web for inference. We learn three modalities for deployment: static
+                website (via S3 and API Gateway), web server (via ElasticBeanstalk) and serverless (via Chalice and Lambda).
+              </p>
+              <a
+                href="https://github.com/aws-deep-learning-apps"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Course Materials</a
+              >
+            </div>
+          </div>
 
         </div>
       </div>
